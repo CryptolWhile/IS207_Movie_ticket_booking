@@ -1,0 +1,26 @@
+baseURL = "https://cryptolwhile.github.io/IS207-Web-Application-Development/"
+languageCode = "en-us"
+title = "AIMA"
+theme = "hugo-theme-stack"
+[pagination]
+  pagerSize = 5
+
+
+[params]
+  mainSections = ["post"]
+  featuredImageField = "image"
+  rssFullContent = true
+
+[params.sidebar]
+  [params.sidebar.left]
+    enabled = true
+  [params.sidebar.right]
+    enabled = false
+
+
+[params.footer]
+  since = 2025
+  customText = "2025 AIMA_Nepal Team. All Rights Reserved."
+
+[markup.goldmark.renderer]
+  unsafe = true

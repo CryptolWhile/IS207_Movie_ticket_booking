@@ -1,0 +1,169 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --radius: 0.625rem;
+
+  /* === LIGHT MODE: TRẮNG + XANH NAVY ĐẬM === */
+
+  /* Màu nền chính */
+  --mau-nen-sang: #f7f9fb;
+
+  /* Màu nhấn chính: xanh navy đậm */
+  --mau-nhan-sang: #263a6b;
+
+  /* --- Ánh xạ --- */
+  --background: var(--mau-nen-sang);
+  --card: #fafbfd;
+  --popover: var(--card);
+  --secondary: #eff1f6;
+  --muted: #e8ebf2;
+  --accent: #dce3f8;
+  --sidebar: #f2f4f9;
+
+  /* Text và màu chính */
+  --foreground: #263a6b;
+  --card-foreground: var(--foreground);
+  --popover-foreground: var(--foreground);
+  --primary: var(--mau-nhan-sang);
+  --primary-foreground: #f9f9fb;
+  --secondary-foreground: var(--foreground);
+  --muted-foreground: #263a6b;
+  --accent-foreground: var(--foreground);
+
+  /* Sidebar */
+  --sidebar-foreground: #263a6b;
+  --sidebar-primary: var(--mau-nhan-sang);
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent-foreground: var(--mau-nhan-sang);
+
+  /* Viền & hiệu ứng */
+  --border: #cfd3e0;
+  --input: var(--border);
+  --ring: var(--mau-nhan-sang);
+  --sidebar-border: #e2e5ef;
+  --sidebar-ring: var(--mau-nhan-sang);
+
+  /* Đặc biệt */
+  --destructive: #d84833;
+
+  /* Biểu đồ */
+  --chart-1: #304a85;
+  --chart-2: #2e447a;
+  --chart-3: #293e89;
+  --chart-4: #5fa47f;
+  --chart-5: #91a655;
+}
+
+.dark {
+  /* === DARK MODE: XANH NAVY ĐẬM + CHỮ XANH CYAN SÁNG === */
+
+  /* 1. Màu nền chính */
+  --mau-nen-toi: #121a2e;
+
+  /* 2. Màu nhấn chính = màu chữ sáng */
+  --mau-nhan-toi: #c9e8ff;
+
+  /* --- Ánh xạ --- */
+  --background: var(--mau-nen-toi);
+  --card: #121a2e;
+  --popover: var(--card);
+  --secondary: #1e2a40;
+  --muted: #27334b;
+  --accent: var(--mau-nen-toi);
+  --sidebar: #0f1628;
+
+  /* Text và màu chính */
+  --foreground: var(--mau-nhan-toi);
+  --card-foreground: var(--mau-nhan-toi);
+  --popover-foreground: var(--mau-nhan-toi);
+  --primary: var(--mau-nhan-toi);
+  --primary-foreground: var(--mau-nen-toi);
+  --secondary-foreground: var(--mau-nhan-toi);
+  --muted-foreground: #c9e8ff;
+  --accent-foreground: var(--mau-nhan-toi);
+
+  /* Sidebar */
+  --sidebar-foreground: var(--mau-nhan-toi);
+  --sidebar-primary: var(--mau-nhan-toi);
+  --sidebar-primary-foreground: var(--mau-nen-toi);
+  --sidebar-accent-foreground: var(--mau-nhan-toi);
+
+  /* Viền & hiệu ứng */
+  --border: #3a4662;
+  --input: var(--border);
+  --ring: var(--mau-nhan-toi);
+  --sidebar-border: #2a3249;
+  --sidebar-ring: var(--mau-nhan-toi);
+
+  /* Đặc biệt */
+  --destructive: #c24b2e;
+
+  /* Biểu đồ */
+  --chart-1: #7dcfff;
+  --chart-2: #6cb3ff;
+  --chart-3: #86a5ff;
+  --chart-4: #7ed19b;
+  --chart-5: #a8c46e;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Ẩn scrollbar trên tất cả browser */
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+* {
+  -ms-overflow-style: none; /* IE và Edge */
+  scrollbar-width: none; /* Firefox */
+}

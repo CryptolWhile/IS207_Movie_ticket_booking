@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on AIMA</title>
+        <link>http://localhost:1313/IS207-Web-Application-Development/page/</link>
+        <description>Recent content in Pages on AIMA</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 15 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/IS207-Web-Application-Development/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About</title>
+        <link>http://localhost:1313/IS207-Web-Application-Development/page/about/</link>
+        <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/IS207-Web-Application-Development/page/about/</guid>
+        <description>&lt;p&gt;Trong bối cảnh ngành công nghiệp giải trí không ngừng phát triển, việc vận hành một rạp chiếu phim đòi hỏi sự chính xác, hiệu quả và khả năng mang lại trải nghiệm khách hàng vượt trội. Nhận thức được thách thức này, nhóm &lt;strong&gt;AIMA&lt;/strong&gt; đã phát triển &lt;strong&gt;CineMax&lt;/strong&gt; – một nền tảng quản lý toàn diện được thiết kế để tối ưu hóa mọi khía cạnh của hoạt động rạp chiếu.&lt;/p&gt;
+&lt;p&gt;Mục tiêu của chúng tôi là cung cấp một giải pháp phần mềm tập trung, giúp các nhà quản lý đơn giản hóa các quy trình phức tạp, từ việc sắp xếp lịch chiếu, quản lý vé và nhân sự, đến việc phân tích dữ liệu kinh doanh để đưa ra các quyết định chiến lược.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;thiết-kế-và-trải-nghiệm-người-dùng-uiux&#34;&gt;Thiết kế và Trải nghiệm người dùng (UI/UX)
+&lt;/h2&gt;&lt;p&gt;Triết lý thiết kế của CineMatrix xoay quanh sự tối giản và hiệu quả. Chúng tôi tin rằng một giao diện người dùng (UI) sạch sẽ và một trải nghiệm người dùng (UX) liền mạch là chìa khóa để người dùng có thể tương tác với hệ thống một cách dễ dàng. Bảng màu hiện đại, bố cục rõ ràng và luồng tác vụ được tối ưu hóa giúp giảm thiểu thời gian đào tạo và tăng năng suất cho nhân viên rạp chiếu.&lt;/p&gt;
+&lt;!-- ![Giao diện Dashboard của CineMatrix](https://i.imgur.com/r7q9tWc.png)
+*Giao diện bảng điều khiển (Dashboard) tổng quan*
+
+![Giao diện đặt vé của CineMatrix](https://i.imgur.com/Z8v4Xz3.jpeg)
+*Giao diện đặt vé trực tuyến phía người dùng* --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;quy-trình-quản-lý-dự-án&#34;&gt;Quy trình Quản lý Dự án
+&lt;/h2&gt;&lt;p&gt;Để đảm bảo tính minh bạch và hiệu quả, &lt;strong&gt;AIMA&lt;/strong&gt; đã áp dụng các phương pháp quản lý dự án chuyên nghiệp. Toàn bộ quy trình làm việc của chúng tôi được ghi lại và theo dõi cẩn thận.&lt;/p&gt;
+&lt;p&gt;Quá trình phát triển được định hướng bởi &lt;strong&gt;thỏa thuận làm việc nhóm&lt;/strong&gt; rõ ràng, một &lt;strong&gt;product backlog&lt;/strong&gt; chi tiết và được cập nhật liên tục. Tiến độ được theo dõi hàng tuần thông qua &lt;strong&gt;biểu đồ Gantt&lt;/strong&gt; và mọi quyết định quan trọng đều được ghi lại trong các &lt;strong&gt;biên bản họp nhóm&lt;/strong&gt;. Cách tiếp cận có cấu trúc này cho phép chúng tôi quản lý tốt phạm vi công việc, tuân thủ deadline và thích ứng nhanh với các thay đổi.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;tài-nguyên-và-sản-phẩm&#34;&gt;Tài nguyên và Sản phẩm
+&lt;/h2&gt;&lt;p&gt;Chúng tôi tự hào chia sẻ các thành quả của dự án. Mọi tài liệu và sản phẩm đều được công khai để tham khảo.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Video Demo]&lt;/strong&gt;: Xem giới thiệu các tính năng chính của CineMatrix.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Poster Dự Án]&lt;/strong&gt;: Xem poster chính thức của dự án.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Mã nguồn (Source Code)]&lt;/strong&gt;: Truy cập kho mã nguồn trên Github.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tài liệu Dự án&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;[Thỏa thuận làm việc nhóm]&lt;/li&gt;
+&lt;li&gt;[Kế hoạch và tiến độ dự án]&lt;/li&gt;
+&lt;li&gt;[Biên bản các cuộc họp]&lt;/li&gt;
+&lt;li&gt;[Product Backlog]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>http://localhost:1313/IS207-Web-Application-Development/page/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/IS207-Web-Application-Development/page/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Demo</title>
+        <link>http://localhost:1313/IS207-Web-Application-Development/page/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/IS207-Web-Application-Development/page/links/</guid>
+        <description>&lt;h1 id=&#34;video-demo-dự-án-cinemax&#34;&gt;Video Demo Dự án CineMax
+&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Trải nghiệm trực quan các tính năng cốt lõi của hệ thống quản lý rạp chiếu phim.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;[Khu vực hiển thị video]&lt;/p&gt;
+&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu
+&lt;/h2&gt;&lt;p&gt;Video này trình diễn một cách chi tiết các luồng hoạt động chính của CineMax, bao gồm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quy trình đặt vé nhanh chóng và tiện lợi dành cho khách hàng.&lt;/li&gt;
+&lt;li&gt;Giao diện quản lý suất chiếu, phòng chiếu và lịch phim dành cho quản trị viên.&lt;/li&gt;
+&lt;li&gt;Chức năng thống kê, báo cáo doanh thu theo thời gian thực.&lt;/li&gt;
+&lt;li&gt;Quản lý thông tin thành viên và các chương trình khuyến mãi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Qua video, chúng tôi muốn mang đến cái nhìn tổng quan và dễ hiểu nhất về giá trị mà CineMax mang lại cho cả người dùng cuối và nhà quản lý rạp phim.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;[LINK_TR%e1%bb%b0C_TI%e1%ba%beP_%c4%90%e1%ba%beN_VIDEO]&#34; &gt;➡️ Xem trên YouTube&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;poster-dự-án&#34;&gt;Poster Dự án
+&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Tổng hợp những thông tin nổi bật nhất về CineMax qua một thiết kế sáng tạo.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;[Khu vực hiển thị hình ảnh poster]&lt;/p&gt;
+&lt;h2 id=&#34;poster&#34;&gt;Poster
+&lt;/h2&gt;&lt;p&gt;Poster được thiết kế nhằm mục đích quảng bá và tóm lược các điểm mạnh của dự án CineMax. Với bố cục hiện đại và màu sắc chủ đạo của thương hiệu, poster truyền tải các thông tin sau:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tên dự án và tagline.&lt;/li&gt;
+&lt;li&gt;Các tính năng nổi bật được biểu diễn qua icon và mô tả ngắn gọn.&lt;/li&gt;
+&lt;li&gt;Công nghệ sử dụng trong dự án.&lt;/li&gt;
+&lt;li&gt;Thông tin nhóm phát triển AIMA_Nepal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Đây là tài liệu lý tưởng để chia sẻ nhanh hoặc sử dụng trong các buổi thuyết trình, báo cáo về dự án.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;[LINK_%c4%90%e1%bb%82_T%e1%ba%a2I_FILE_POSTER_CH%e1%ba%a4T_L%c6%af%e1%bb%a2NG_CAO]&#34; &gt;📥 Tải về Poster (PDF/PNG)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>http://localhost:1313/IS207-Web-Application-Development/page/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/IS207-Web-Application-Development/page/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
